@@ -1,6 +1,6 @@
 {
   "name": "vsmarketplace-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Request data for extensions from the VS Marketplace API",
   "main": "index.js",
   "keywords": [
@@ -14,5 +14,6 @@
   },
   "dependencies": {
     "node-fetch": "^2.2.0"
-  }
+  },
+  "types": "index.d.ts"
 }
