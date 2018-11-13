@@ -1,6 +1,6 @@
 {
   "name": "vsmarketplace-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Request data for extensions from the VS Marketplace API",
   "main": "index.js",
   "keywords": [

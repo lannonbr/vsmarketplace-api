@@ -35,7 +35,9 @@ module.exports = function(query) {
       method: "POST",
       body,
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "User-Agent":
+          "VSMarketplace-API/1.0 (https://github.com/lannonbr/vsmarketplace-api)"
       }
     })
       .then(response => response.json())
